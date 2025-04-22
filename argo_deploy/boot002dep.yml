@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: boot002dep
+  name: argo-boot-dep
 spec:
   selector:
     matchLabels:
