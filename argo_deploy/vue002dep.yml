@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: vue-container
-        image: ys0915/k8s_vue_t:latest
+        image: ys0915/argo_vue:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 80      # 5173이 아니라 80으로 바꿔야 한다.
